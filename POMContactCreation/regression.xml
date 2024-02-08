@@ -6,7 +6,7 @@
 	  <parameter name="browserType" value="chrome"></parameter>
     <classes>
       
-      <class name="mst.automation.regressiontestcases.ContactCreationTest"></class>
+      <class name="mst.automation.regressiontestcases.LoginTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
