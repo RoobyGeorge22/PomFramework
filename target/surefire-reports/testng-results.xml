@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-19T15:01:26 IST" name="Suite" finished-at="2024-03-19T15:03:23 IST" duration-ms="116994">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mst.advance.automation.testRunner.TestRunner@60737b23]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-03-19T15:01:26 IST" name="Test" finished-at="2024-03-19T15:03:23 IST" duration-ms="116994">
+      <class name="com.mst.advance.automation.testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.mst.advance.automation.testRunner.TestRunner@60737b23]" started-at="2024-03-19T15:01:26 IST" name="setUpClass" finished-at="2024-03-19T15:01:34 IST" duration-ms="8017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6701fe26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mst.advance.automation.testRunner.TestRunner@60737b23]" started-at="2024-03-19T15:01:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-19T15:03:19 IST" duration-ms="105274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the login is successful with valid Crendentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature to test login fuctionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.mst.advance.automation.testRunner.TestRunner@60737b23]" started-at="2024-03-19T15:03:19 IST" name="tearDownClass" finished-at="2024-03-19T15:03:23 IST" duration-ms="3312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.mst.advance.automation.testRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
